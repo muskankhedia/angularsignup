@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html ng-app="signup">
+	<head>
+		<title>Sign Up</title>
+		<script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/angular.js"></script>
+		<link rel="stylesheet" href="bootstrap/bootstrap.css" />
+		<script type = "text/javascript" >
+			
+
+		</script>
+
+
+		<body ng-controller="myCtrl">
+
+			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			  <a class="navbar-brand" href="#">SIGN UP FOR PORT AUTHORITIES</a>
+			</nav>
+
+			<div class="container">
+				<form id="myform"> 
+				  <fieldset>
+				    <legend>Registration</legend>
+
+						    <div class="form-group">
+						      <label for="fname">FirstName</label>
+						      <input type="text" class="form-control" id="fname" placeholder="FirstName">
+						
+						    </div>
+
+						    <div class="form-group">
+						      <label for="lname">Last Name</label>
+						      <input type="text" class="form-control" id="exampleInputEmail1"placeholder="LastName">
+						    </div>
+
+						    <div class="form-group">
+						      <label for="email1">Email address</label>
+						      <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email">
+						      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						    </div>
+
+						    <div class="form-group">
+						      <label for="mno">Mobile Number</label>
+						      <input type="text" class="form-control" id="mno" placeholder="Mobile Number">
+						    </div>
+
+						    <div class="form-group">
+						      <label for="password">Password</label>
+						      <input type="password" class="form-control" id="password" placeholder="Enter password">
+						    </div>
+
+						    <div class="form-group">
+						      <label for="confirmpassword">Confirm Password</label>
+						      <input type="password" class="form-control" id="confirmpassword"placeholder="Enter Password again">
+						    </div>
+
+
+						    <div class="form-group">
+						      <label for="port">Select Port</label>
+						      <select class="form-control" id="port">
+						        <option>Chenni port</option>
+						        <option>Jawaharlal Nehru Port,Mumbai</option>
+						        <option>Kandla Port,Gujurat</option>
+						        <option>Kochi Port,Kerala</option>
+						        <option>Kolkata Port</option>
+						        <option>Krishnapatnam Port,Andhra Pradesh</option>
+						        <option>Mangalore Port</option>
+						        <option>Mormugao Port</option>
+						        <option>Mumbai Port</option>
+						        <option>Paradip Port,Odisha</option>
+						        <option>Tuticorin Port</option>
+						        <option>Visakapatnam Port</option>
+						      </select>
+						    </div>
+						    
+						    
+						    <div class="form-group">
+						      <label for="gender">Gender</label>
+						      <div class="form-check">
+						        <label class="form-check-label">
+						          <input type="radio" class="form-check-input" name="Male" id="Male" value="Male" checked>
+						          Male <br>
+						          <input type="radio" class="form-check-input" name="Female" id="Female" value="Female">
+						          Female
+						        </label>
+						      </div>
+						    </div>
+
+						    <span id="msg"></span>
+
+						    <button type="submit" name="submit" id="submit" class="btn btn-primary">Submit</button>
+						    <button type="cancel" name="cancel" class="btn btn-primary">Cancel</button>
+						  </fieldset>
+						</form>
+
+					</div>
+
+
+		</body>
+	</head>
+</html>
+
+		
